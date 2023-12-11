@@ -1,0 +1,28 @@
+.MuiTable-root tbody::before {
+  height: 2em;
+  display: table-row;
+  content: "";
+  background-color: '#f6f6f6';
+};
+.MuiTable-root thead::after{
+    height: 2em;
+    display: table-row;
+    content: "";
+    background-color: '#f6f6f6';
+    position: relative;
+}
+
+.MuiTableHead-root::before{
+    height: 2em;
+    display: table-row;
+    content: "";
+    background-color: '#f6f6f6';
+    position: relative;
+}
+/* .MuiPaginationItem-root button {
+  color: '#496262' !important;
+  font-weight: 700;
+}
+.selected button {
+  background-color: #FED93A !important;
+} */
